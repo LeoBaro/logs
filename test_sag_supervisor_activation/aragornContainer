@@ -1,0 +1,156 @@
+2021-02-09T14:54:49.787 INFO [acsStartContainer] Running the container with these arguments: 'ACSStartContainerPy aragornContainer -ORBendPoint giop:tcp:10.0.2.15:4000 -m corbaloc::10.0.2.15:3000/Manager'
+ContainerStatusMsg: Startup begins
+2021-02-09T14:54:51.323 AlarmSystemInterfaceFactory init - Using ACS alarm system
+ContainerStatusMsg: ORB initialization begins
+ContainerStatusMsg: ORB initialization ends
+ContainerStatusMsg: Manager access initialization begins
+ContainerStatusMsg: Manager access initialization ends
+ContainerStatusMsg: Automatic component loading begins
+2021-02-09T14:54:51.537 aragornContainer taggedmessage - Info message from the manager: Startup statistics: 4 components queued to be activated.
+2021-02-09T14:54:51.562 aragornContainer run - Activating PY_SAGNOTIFICATION_MANAGER (type IDL:cta/SAG_MODULE/SAGNotificationManager:1.0)
+2021-02-09T14:54:51.920 aragornContainer getCDBInfo - No container information found in the CDB
+2021-02-09T14:54:51.971 aragornContainer __init__ - Container aragornContainer waiting for requests
+2021-02-09T14:54:51.972 aragornContainer __init__ - Container aragornContainer used libraries from /home/vagrant/INTROOT/lib/python/site-packages:/alma/ACS-2020AUG/ACSSW/lib/python/site-packages:
+ContainerStatusMsg: Startup ends
+2021-02-09T14:54:51.975 aragornContainer aboutToActivate - The container is asking the clearance to activate PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:54:51.976 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGNOTIFICATION_MANAGER: the operation can go ahead
+2021-02-09T14:54:51.976 aragornContainer aboutToActivate - The container has been cleared to activate PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:54:52.049 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=71 CompName=PY_SAGNOTIFICATION_MANAGER ]
+2021-02-09T14:54:52.108 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=51 CompName=PY_SAGNOTIFICATION_MANAGER ]
+2021-02-09T14:54:52.336 mon-Consumer initCORBA - Created new channel.
+2021-02-09T14:54:52.385 adh-Consumer initCORBA - Created new channel.
+2021-02-09T14:54:52.437 cc-Consumer initCORBA - Created new channel.
+2021-02-09T14:54:52.482 rm-Consumer initCORBA - Created new channel.
+2021-02-09T14:54:52.524 hmi-Consumer initCORBA - Created new channel.
+2021-02-09T14:54:52.559 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=PY_SAGNOTIFICATION_MANAGER ]
+2021-02-09T14:54:52.560 mon-Consumer addSubscription - ChannelEvent_FROM_MON
+2021-02-09T14:54:52.565 adh-Consumer addSubscription - ChannelEvent_FROM_ADH
+2021-02-09T14:54:52.568 cc-Consumer addSubscription - ChannelEvent_FROM_CC
+2021-02-09T14:54:52.576 rm-Consumer addSubscription - ChannelEvent_FROM_RM
+2021-02-09T14:54:52.579 hmi-Consumer addSubscription - ChannelEvent_FROM_HMI
+2021-02-09T14:54:52.582 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=22 CompName=PY_SAGNOTIFICATION_MANAGER ]
+2021-02-09T14:54:52.585 aragornContainer activate_component - Activated component: PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:54:52.611 aragornContainer activate_component - Component 'PY_SAGNOTIFICATION_MANAGER' has KeepAliveTime '0'.
+2021-02-09T14:54:52.611 aragornContainer activated - The container terminated the activation of PY_SAGNOTIFICATION_MANAGER: awakening waiting threads
+2021-02-09T14:54:52.612 aragornContainer _processTerminated - The container terminated dealing with PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:54:52.613 aragornContainer run - Calling maci::CBComponentInfo::done with descOut.id_tag = 1 for 'PY_SAGNOTIFICATION_MANAGER'
+2021-02-09T14:54:52.626 aragornContainer run - Call to maci::CBComponentInfo::done with descOut.id_tag = 1 for 'PY_SAGNOTIFICATION_MANAGER' completed
+2021-02-09T14:54:52.633 aragornContainer activate_component_async - Starting async activation of PY_SAGSUBARRAYMONITOR(type IDL:cta/SAG_MODULE/SAGSubArrayMonitor:1.0)
+2021-02-09T14:54:52.638 aragornContainer run - Activating PY_SAGSUBARRAYMONITOR (type IDL:cta/SAG_MODULE/SAGSubArrayMonitor:1.0)
+2021-02-09T14:54:52.638 aragornContainer aboutToActivate - The container is asking the clearance to activate PY_SAGSUBARRAYMONITOR
+2021-02-09T14:54:52.639 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGSUBARRAYMONITOR: the operation can go ahead
+2021-02-09T14:54:52.640 aragornContainer aboutToActivate - The container has been cleared to activate PY_SAGSUBARRAYMONITOR
+2021-02-09T14:54:52.641 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=0 CompName=PY_SAGSUBARRAYMONITOR ]
+2021-02-09T14:54:52.647 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=5 CompName=PY_SAGSUBARRAYMONITOR ]
+2021-02-09T14:54:52.648 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=PY_SAGSUBARRAYMONITOR ]
+2021-02-09T14:54:52.653 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=4 CompName=PY_SAGSUBARRAYMONITOR ]
+2021-02-09T14:54:52.656 aragornContainer activate_component - Activated component: PY_SAGSUBARRAYMONITOR
+2021-02-09T14:54:52.680 aragornContainer activate_component - Component 'PY_SAGSUBARRAYMONITOR' has KeepAliveTime '0'.
+2021-02-09T14:54:52.687 aragornContainer activated - The container terminated the activation of PY_SAGSUBARRAYMONITOR: awakening waiting threads
+2021-02-09T14:54:52.688 aragornContainer _processTerminated - The container terminated dealing with PY_SAGSUBARRAYMONITOR
+2021-02-09T14:54:52.689 aragornContainer run - Calling maci::CBComponentInfo::done with descOut.id_tag = 2 for 'PY_SAGSUBARRAYMONITOR'
+2021-02-09T14:54:52.692 aragornContainer run - Call to maci::CBComponentInfo::done with descOut.id_tag = 2 for 'PY_SAGSUBARRAYMONITOR' completed
+2021-02-09T14:54:52.694 aragornContainer activate_component_async - Starting async activation of SIM_SAG_DATABASE(type IDL:cta/SAG_MODULE/SAGDatabase:1.0)
+2021-02-09T14:54:52.695 aragornContainer run - Activating SIM_SAG_DATABASE (type IDL:cta/SAG_MODULE/SAGDatabase:1.0)
+2021-02-09T14:54:52.696 aragornContainer aboutToActivate - The container is asking the clearance to activate SIM_SAG_DATABASE
+2021-02-09T14:54:52.697 aragornContainer _aboutToProcess - The container is not dealing with SIM_SAG_DATABASE: the operation can go ahead
+2021-02-09T14:54:52.697 aragornContainer aboutToActivate - The container has been cleared to activate SIM_SAG_DATABASE
+2021-02-09T14:54:52.787 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=89 CompName=SIM_SAG_DATABASE ]
+2021-02-09T14:54:52.801 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=9 CompName=SIM_SAG_DATABASE ]
+[SIM_SAG_DATABASE] component initialization
+2021-02-09T14:54:52.965 SIM_SAG_DATABASE stringFunction - [SIM_SAG_DATABASE] component initialization
+2021-02-09T14:54:52.966 Servants.Executor _execute - initialize return value looks like:None of type:<class 'NoneType'>
+2021-02-09T14:54:52.967 EventDispatcher (SIM_SAG_DATABASE) setupEventDispatching - Setting up event dispatching.
+2021-02-09T14:54:52.971 EventDispatcher (SIM_SAG_DATABASE) handleFrequencies - No event frequencies defined.
+2021-02-09T14:54:52.972 EventDispatcher (SIM_SAG_DATABASE) handleResponses - No event frequencies defined.
+2021-02-09T14:54:52.979 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=SIM_SAG_DATABASE ]
+2021-02-09T14:54:52.979 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=0 CompName=SIM_SAG_DATABASE ]
+2021-02-09T14:54:52.981 aragornContainer activate_component - Activated component: SIM_SAG_DATABASE
+2021-02-09T14:54:53.004 aragornContainer activate_component - Component 'SIM_SAG_DATABASE' has KeepAliveTime '0'.
+2021-02-09T14:54:53.011 aragornContainer activated - The container terminated the activation of SIM_SAG_DATABASE: awakening waiting threads
+2021-02-09T14:54:53.012 aragornContainer _processTerminated - The container terminated dealing with SIM_SAG_DATABASE
+2021-02-09T14:54:53.013 aragornContainer run - Calling maci::CBComponentInfo::done with descOut.id_tag = 3 for 'SIM_SAG_DATABASE'
+2021-02-09T14:54:53.017 aragornContainer run - Call to maci::CBComponentInfo::done with descOut.id_tag = 3 for 'SIM_SAG_DATABASE' completed
+2021-02-09T14:54:53.018 aragornContainer activate_component_async - Starting async activation of SIM_MONITORING(type IDL:cta/EXTERNAL_MODULE/Monitoring:1.0)
+2021-02-09T14:54:53.019 aragornContainer run - Activating SIM_MONITORING (type IDL:cta/EXTERNAL_MODULE/Monitoring:1.0)
+2021-02-09T14:54:53.019 aragornContainer aboutToActivate - The container is asking the clearance to activate SIM_MONITORING
+2021-02-09T14:54:53.020 aragornContainer _aboutToProcess - The container is not dealing with SIM_MONITORING: the operation can go ahead
+2021-02-09T14:54:53.021 aragornContainer aboutToActivate - The container has been cleared to activate SIM_MONITORING
+2021-02-09T14:54:53.021 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=0 CompName=SIM_MONITORING ]
+2021-02-09T14:54:53.040 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=9 CompName=SIM_MONITORING ]
+2021-02-09T14:54:53.199 SIM_MONITORING stringFunction - SIM_MONITORING component initialization
+2021-02-09T14:54:53.230 mon-Consumer addSubscription - SAGChannelEvent_TO_MON
+2021-02-09T14:54:53.235 Servants.Executor _execute - initialize return value looks like:None of type:<class 'NoneType'>
+2021-02-09T14:54:53.237 EventDispatcher (SIM_MONITORING) setupEventDispatching - Setting up event dispatching.
+2021-02-09T14:54:53.241 EventDispatcher (SIM_MONITORING) handleFrequencies - No event frequencies defined.
+2021-02-09T14:54:53.243 EventDispatcher (SIM_MONITORING) handleResponses - No event frequencies defined.
+2021-02-09T14:54:53.255 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=SIM_MONITORING ]
+2021-02-09T14:54:53.255 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=0 CompName=SIM_MONITORING ]
+2021-02-09T14:54:53.257 aragornContainer activate_component - Activated component: SIM_MONITORING
+2021-02-09T14:54:53.284 aragornContainer activate_component - Component 'SIM_MONITORING' has KeepAliveTime '0'.
+2021-02-09T14:54:53.285 aragornContainer activated - The container terminated the activation of SIM_MONITORING: awakening waiting threads
+2021-02-09T14:54:53.286 aragornContainer _processTerminated - The container terminated dealing with SIM_MONITORING
+2021-02-09T14:54:53.287 aragornContainer run - Calling maci::CBComponentInfo::done with descOut.id_tag = 4 for 'SIM_MONITORING'
+2021-02-09T14:54:53.293 aragornContainer run - Call to maci::CBComponentInfo::done with descOut.id_tag = 4 for 'SIM_MONITORING' completed
+2021-02-09T14:54:53.294 aragornContainer taggedmessage - Info message from the manager: Startup statistics: 4 of 4 components activated.
+ContainerStatusMsg: Automatic component loading ends
+ContainerStatusMsg: Ready
+2021-02-09T14:54:59.306 aragornContainer activate_component_async - Starting async activation of PY_SAGSUPERVISOR(type IDL:cta/SAG_SUPERVISOR_MODULE/SAGSupervisor:1.0)
+2021-02-09T14:54:59.308 aragornContainer run - Activating PY_SAGSUPERVISOR (type IDL:cta/SAG_SUPERVISOR_MODULE/SAGSupervisor:1.0)
+2021-02-09T14:54:59.310 aragornContainer aboutToActivate - The container is asking the clearance to activate PY_SAGSUPERVISOR
+2021-02-09T14:54:59.313 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGSUPERVISOR: the operation can go ahead
+2021-02-09T14:54:59.322 aragornContainer aboutToActivate - The container has been cleared to activate PY_SAGSUPERVISOR
+2021-02-09T14:54:59.355 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=32 CompName=PY_SAGSUPERVISOR ]
+2021-02-09T14:54:59.363 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=7 CompName=PY_SAGSUPERVISOR ]
+2021-02-09T14:54:59.369 None initialize - [SAGSupervisorImpl - initialize]
+2021-02-09T14:54:59.400 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=PY_SAGSUPERVISOR ]
+2021-02-09T14:54:59.401 None execute - [SAGSupervisorImpl - execute]
+2021-02-09T14:54:59.403 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=2 CompName=PY_SAGSUPERVISOR ]
+2021-02-09T14:54:59.405 aragornContainer activate_component - Activated component: PY_SAGSUPERVISOR
+2021-02-09T14:54:59.420 aragornContainer activate_component - Component 'PY_SAGSUPERVISOR' has KeepAliveTime '0'.
+2021-02-09T14:54:59.420 aragornContainer activated - The container terminated the activation of PY_SAGSUPERVISOR: awakening waiting threads
+2021-02-09T14:54:59.426 aragornContainer _processTerminated - The container terminated dealing with PY_SAGSUPERVISOR
+2021-02-09T14:54:59.427 aragornContainer run - Calling maci::CBComponentInfo::done with descOut.id_tag = 5 for 'PY_SAGSUPERVISOR'
+2021-02-09T14:54:59.431 aragornContainer run - Call to maci::CBComponentInfo::done with descOut.id_tag = 5 for 'PY_SAGSUPERVISOR' completed
+2021-02-09T14:54:59.434 aragornContainer aboutToDeactivate - The container is asking the clearance to deactivate PY_SAGSUPERVISOR
+2021-02-09T14:54:59.435 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGSUPERVISOR: the operation can go ahead
+2021-02-09T14:54:59.435 aragornContainer aboutToDeactivate - The container has been cleared to activate PY_SAGSUPERVISOR
+2021-02-09T14:54:59.435 aragornContainer deactivate_component - Deactivating component: PY_SAGSUPERVISOR
+2021-02-09T14:54:59.436 None cleanUp - [SAGSupervisorImpl - cleanUp]
+2021-02-09T14:54:59.439 aragornContainer deactivated - The container terminated the deactivation of PY_SAGSUPERVISOR: awakening waiting threads
+2021-02-09T14:54:59.440 aragornContainer _processTerminated - The container terminated dealing with PY_SAGSUPERVISOR
+2021-02-09T14:54:59.909 aragornContainer aboutToDeactivate - The container is asking the clearance to deactivate SIM_MONITORING
+2021-02-09T14:54:59.910 aragornContainer _aboutToProcess - The container is not dealing with SIM_MONITORING: the operation can go ahead
+2021-02-09T14:54:59.910 aragornContainer aboutToDeactivate - The container has been cleared to activate SIM_MONITORING
+2021-02-09T14:54:59.911 aragornContainer deactivate_component - Deactivating component: SIM_MONITORING
+SIM_MONITORING component cleaning up
+2021-02-09T14:54:59.915 Servants.Executor _execute - cleanUp return value looks like:None of type:<class 'NoneType'>
+2021-02-09T14:54:59.915 aragornContainer deactivated - The container terminated the deactivation of SIM_MONITORING: awakening waiting threads
+2021-02-09T14:54:59.916 aragornContainer _processTerminated - The container terminated dealing with SIM_MONITORING
+2021-02-09T14:54:59.944 Python Client: initialized by vagrant@actl-dev-vm disconnect - Disconnect called for client
+2021-02-09T14:54:59.967 aragornContainer aboutToDeactivate - The container is asking the clearance to deactivate SIM_SAG_DATABASE
+2021-02-09T14:54:59.967 aragornContainer _aboutToProcess - The container is not dealing with SIM_SAG_DATABASE: the operation can go ahead
+2021-02-09T14:55:00.024 aragornContainer aboutToDeactivate - The container has been cleared to activate SIM_SAG_DATABASE
+2021-02-09T14:55:00.025 aragornContainer deactivate_component - Deactivating component: SIM_SAG_DATABASE
+2021-02-09T14:55:00.031 SIM_MONITORING stringFunction - [SIM_SAG_DATABASE] component cleaning up
+2021-02-09T14:55:00.032 Servants.Executor _execute - cleanUp return value looks like:None of type:<class 'NoneType'>
+2021-02-09T14:55:00.034 aragornContainer deactivated - The container terminated the deactivation of SIM_SAG_DATABASE: awakening waiting threads
+2021-02-09T14:55:00.053 aragornContainer _processTerminated - The container terminated dealing with SIM_SAG_DATABASE
+2021-02-09T14:55:00.061 aragornContainer aboutToDeactivate - The container is asking the clearance to deactivate PY_SAGSUBARRAYMONITOR
+2021-02-09T14:55:00.062 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGSUBARRAYMONITOR: the operation can go ahead
+2021-02-09T14:55:00.062 aragornContainer aboutToDeactivate - The container has been cleared to activate PY_SAGSUBARRAYMONITOR
+2021-02-09T14:55:00.063 aragornContainer deactivate_component - Deactivating component: PY_SAGSUBARRAYMONITOR
+2021-02-09T14:55:00.101 PY_SAGSUBARRAYMONITOR stopMonitoring - [SAGSubArrayMonitorImpl - stopMonitoring] self.monitor is False setting it to False
+2021-02-09T14:55:00.110 aragornContainer deactivated - The container terminated the deactivation of PY_SAGSUBARRAYMONITOR: awakening waiting threads
+2021-02-09T14:55:00.111 aragornContainer _processTerminated - The container terminated dealing with PY_SAGSUBARRAYMONITOR
+2021-02-09T14:55:00.146 aragornContainer aboutToDeactivate - The container is asking the clearance to deactivate PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:55:00.147 aragornContainer _aboutToProcess - The container is not dealing with PY_SAGNOTIFICATION_MANAGER: the operation can go ahead
+2021-02-09T14:55:00.147 aragornContainer aboutToDeactivate - The container has been cleared to activate PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:55:00.147 aragornContainer deactivate_component - Deactivating component: PY_SAGNOTIFICATION_MANAGER
+2021-02-09T14:55:00.531 aragornContainer deactivated - The container terminated the deactivation of PY_SAGNOTIFICATION_MANAGER: awakening waiting threads
+2021-02-09T14:55:00.532 aragornContainer _processTerminated - The container terminated dealing with PY_SAGNOTIFICATION_MANAGER
+Goodbye
+2021-02-09T14:55:00.987 Python Client: initialized by vagrant@actl-dev-vm disconnect - Disconnect called for client
+2021-02-09T14:55:00.993 Python Client: initialized by vagrant@actl-dev-vm disconnect - Disconnect called for client
+2021-02-09T14:55:00.994 Python Client: initialized by vagrant@actl-dev-vm disconnect - Disconnect called for client
+2021-02-09T14:55:01.442 INFO [acsStartContainer] Container: 'aragornContainer' exited with code: 0.

@@ -1,0 +1,18 @@
+2021-02-09T14:58:19.049 INFO [acsStartContainer] Running the container with these arguments: 'ACSStartContainerPy pyContainerForSubArrayManager_2 -ORBendPoint giop:tcp:10.0.2.15:4008 -m corbaloc::10.0.2.15:3000/Manager'
+ContainerStatusMsg: Startup begins
+2021-02-09T14:58:20.227 AlarmSystemInterfaceFactory init - Using ACS alarm system
+ContainerStatusMsg: ORB initialization begins
+ContainerStatusMsg: ORB initialization ends
+ContainerStatusMsg: Manager access initialization begins
+ContainerStatusMsg: Manager access initialization ends
+ContainerStatusMsg: Automatic component loading begins
+2021-02-09T14:58:20.274 pyContainerForSubArrayManager_2 taggedmessage - Info message from the manager: Startup statistics: 0 components queued to be activated.
+2021-02-09T14:58:20.275 pyContainerForSubArrayManager_2 taggedmessage - Info message from the manager: Startup statistics: 0 of 0 components activated.
+ContainerStatusMsg: Automatic component loading ends
+ContainerStatusMsg: Ready
+2021-02-09T14:58:20.452 pyContainerForSubArrayManager_2 getCDBInfo - No container information found in the CDB
+2021-02-09T14:58:20.490 pyContainerForSubArrayManager_2 __init__ - Container pyContainerForSubArrayManager_2 waiting for requests
+2021-02-09T14:58:20.491 pyContainerForSubArrayManager_2 __init__ - Container pyContainerForSubArrayManager_2 used libraries from /home/vagrant/INTROOT/lib/python/site-packages:/alma/ACS-2020AUG/ACSSW/lib/python/site-packages:
+ContainerStatusMsg: Startup ends
+Goodbye
+2021-02-09T14:58:39.572 INFO [acsStartContainer] Container: 'pyContainerForSubArrayManager_2' exited with code: 0.

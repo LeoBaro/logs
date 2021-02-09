@@ -1,0 +1,50 @@
+2021-02-09T14:56:51.015 INFO [acsStartContainer] Running the container with these arguments: 'ACSStartContainerPy pyContainerForSubArrayManager_2 -ORBendPoint giop:tcp:10.0.2.15:4000 -m corbaloc::10.0.2.15:3000/Manager'
+ContainerStatusMsg: Startup begins
+2021-02-09T14:56:52.494 AlarmSystemInterfaceFactory init - Using ACS alarm system
+ContainerStatusMsg: ORB initialization begins
+ContainerStatusMsg: ORB initialization ends
+ContainerStatusMsg: Manager access initialization begins
+ContainerStatusMsg: Automatic component loading begins
+2021-02-09T14:56:52.626 pyContainerForSubArrayManager_2 taggedmessage - Info message from the manager: Startup statistics: 0 components queued to be activated.
+2021-02-09T14:56:52.626 pyContainerForSubArrayManager_2 taggedmessage - Info message from the manager: Startup statistics: 0 of 0 components activated.
+ContainerStatusMsg: Automatic component loading ends
+ContainerStatusMsg: Ready
+ContainerStatusMsg: Manager access initialization ends
+2021-02-09T14:56:52.777 pyContainerForSubArrayManager_2 getCDBInfo - No container information found in the CDB
+2021-02-09T14:56:52.852 pyContainerForSubArrayManager_2 __init__ - Container pyContainerForSubArrayManager_2 waiting for requests
+2021-02-09T14:56:52.853 pyContainerForSubArrayManager_2 __init__ - Container pyContainerForSubArrayManager_2 used libraries from /home/vagrant/INTROOT/lib/python/site-packages:/alma/ACS-2020AUG/ACSSW/lib/python/site-packages:
+ContainerStatusMsg: Startup ends
+2021-02-09T14:57:11.222 pyContainerForSubArrayManager_2 activate_component_async - Starting async activation of PY_SUBARRAYMANAGER_20(type IDL:sag/SAG_MODULE__POA/SAGSubArrayManager:1.0)
+2021-02-09T14:57:11.225 pyContainerForSubArrayManager_2 run - Activating PY_SUBARRAYMANAGER_20 (type IDL:sag/SAG_MODULE__POA/SAGSubArrayManager:1.0)
+2021-02-09T14:57:11.227 pyContainerForSubArrayManager_2 aboutToActivate - The container is asking the clearance to activate PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:11.228 pyContainerForSubArrayManager_2 _aboutToProcess - The container is not dealing with PY_SUBARRAYMANAGER_20: the operation can go ahead
+2021-02-09T14:57:11.230 pyContainerForSubArrayManager_2 aboutToActivate - The container has been cleared to activate PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:11.259 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=28 CompName=PY_SUBARRAYMANAGER_20 ]
+2021-02-09T14:57:11.266 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=6 CompName=PY_SUBARRAYMANAGER_20 ]
+2021-02-09T14:57:11.284 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=PY_SUBARRAYMANAGER_20 ]
+2021-02-09T14:57:11.286 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=1 CompName=PY_SUBARRAYMANAGER_20 ]
+2021-02-09T14:57:11.289 pyContainerForSubArrayManager_2 activate_component - Activated component: PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:11.313 pyContainerForSubArrayManager_2 activate_component - Component 'PY_SUBARRAYMANAGER_20' doesn't have any KeepAliveTime configuration associated with it.
+2021-02-09T14:57:11.313 pyContainerForSubArrayManager_2 activated - The container terminated the activation of PY_SUBARRAYMANAGER_20: awakening waiting threads
+2021-02-09T14:57:11.314 pyContainerForSubArrayManager_2 _processTerminated - The container terminated dealing with PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:11.315 pyContainerForSubArrayManager_2 run - Calling maci::CBComponentInfo::done with descOut.id_tag = 1 for 'PY_SUBARRAYMANAGER_20'
+2021-02-09T14:57:11.322 pyContainerForSubArrayManager_2 run - Call to maci::CBComponentInfo::done with descOut.id_tag = 1 for 'PY_SUBARRAYMANAGER_20' completed
+2021-02-09T14:57:11.346 PY_SUBARRAYMANAGER_20 initializeWithData - [SAGSubArrayManagerImpl 20] initializeWithData() subArrayID=20
+2021-02-09T14:57:11.360 PY_SUBARRAYMANAGER_20 activateAndStartPipelines - [SAGSubArrayManagerImpl 20] ====> reco STATUS = 0
+2021-02-09T14:57:11.362 PY_SUBARRAYMANAGER_20 activateAndStartPipelines - [SAGSubArrayManagerImpl 20] ====> dq STATUS = 0
+2021-02-09T14:57:11.363 PY_SUBARRAYMANAGER_20 activateAndStartPipelines - [SAGSubArrayManagerImpl 20] ====> sci STATUS = 0
+2021-02-09T14:57:21.678 PY_SUBARRAYMANAGER_20 startDataProcessing - [startDataProcessing]
+omniORB: (5) 2021-02-09 14:57:31.840730: Caught an unexpected Python exception during up-call.
+2021-02-09T14:57:31.894 pyContainerForSubArrayManager_2 aboutToDeactivate - The container is asking the clearance to deactivate PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:31.895 pyContainerForSubArrayManager_2 _aboutToProcess - The container is not dealing with PY_SUBARRAYMANAGER_20: the operation can go ahead
+2021-02-09T14:57:31.895 pyContainerForSubArrayManager_2 aboutToDeactivate - The container has been cleared to activate PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:31.896 pyContainerForSubArrayManager_2 deactivate_component - Deactivating component: PY_SUBARRAYMANAGER_20
+2021-02-09T14:57:31.909 pyContainerForSubArrayManager_2 deactivated - The container terminated the deactivation of PY_SUBARRAYMANAGER_20: awakening waiting threads
+2021-02-09T14:57:31.909 pyContainerForSubArrayManager_2 _processTerminated - The container terminated dealing with PY_SUBARRAYMANAGER_20
+Goodbye
+Traceback (most recent call last):
+  File "/home/vagrant/INTROOT/lib/python/site-packages/SAG_IMPL_MODULE/SAGSubArrayManagerImpl.py", line 143, in stopAndDeactivatePipelines
+    sagCallback.working(json.dumps({}))
+AttributeError: 'NoneType' object has no attribute 'working'
+2021-02-09T14:57:32.927 Python Client: initialized by vagrant@actl-dev-vm disconnect - Disconnect called for client
+2021-02-09T14:57:33.036 INFO [acsStartContainer] Container: 'pyContainerForSubArrayManager_2' exited with code: 0.

@@ -1,0 +1,516 @@
+Locking instance 0 with lock file /home/vagrant/ACSDATA_ORIG/tmp/acsInstance0.lock
+2021-02-09T14:54:14.254 INFO [acsStart] Starting ACS version ACS-2020AUG.0
+2021-02-09T14:54:14.266 INFO [acsStart] Using ALMA Base Software tag ab36cf1
+2021-02-09T14:54:14.506 INFO [acsStartORBSRVC] Starting CORBA Services
+2021-02-09T14:54:14.515 INFO [acsStartORBSRVC]     Orb options:  -ORBDottedDecimalAddresses 1
+2021-02-09T14:54:14.840 INFO [acsNamingService] Starting Naming Service
+2021-02-09T14:54:15.325 INFO [acsInterfaceRepository] Starting Interface Repository
+ReBound ID: InterfaceRepository
+processing /tmp/acsIrfeedDyn.8457.idl
+2021-02-09T14:54:16.263 INFO [acsNotifyService] Starting Notify Service
+Name Service without channel entries in the endpoint 10.0.2.15:3002
+Using reactive client control.
+Using 1 threads for each Supplier.
+Using 1 threads for each Consumer.
+ReBound ID: MC_NotifyEventChannelFactory
+2021-02-09T14:54:17.030 INFO [acsNotifyService] Starting Logging Notify Service
+Name Service without channel entries in the endpoint 10.0.2.15:3005
+Using reactive client control.
+Using 1 threads for each Supplier.
+Using 1 threads for each Consumer.
+2021-02-09T14:54:17.783 INFO [acsLoggingService] Starting Logging Service
+ReBound ID: MC_LoggingNotifyEventChannelFactory
+2021-02-09T14:54:23.287 INFO [acsConfigurationDatabase] Starting ACS Configuration Database
+2021-02-09T14:54:23.294 INFO [acsConfigurationDatabase]     CDB data is in:  /home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/../
+ --endorsed --maxHeapSize 512m -D jacorb.poa.thread_pool_max=200 -D jacorb.connection.client.pending_reply_timeout=30000 -D ACS.cdbpath=/home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/../config/CDB/schemas:/home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/..//CDB/schemas:/home/vagrant/INTROOT/config/CDB/schemas:/alma/ACS-2020AUG/ACSSW/config/CDB/schemas -- com.cosylab.cdb.jdal.Server -jacorb -root /home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/../ -OAIAddr 10.0.2.15 -OAport 3012 -n
+2021-02-09T14:54:24.097 INFO [acsStartJava] Starting Java application: com.cosylab.cdb.jdal.Server -jacorb -root /home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/../ -OAIAddr 10.0.2.15 -OAport 3012 -n
+2021-02-09T14:54:24.202 INFO [acsStartJava] Using endorsed jar files in: /home/vagrant/INTROOT/lib/endorsed:/alma/ACS-2020AUG/ACSSW/lib/endorsed:/alma/ACS-2020AUG/JacORB/lib/endorsed:
+2021-02-09T14:54:24.500 INFO [acsNotifyService] Starting Archive Notify Service
+Name Service without channel entries in the endpoint 10.0.2.15:3006
+Using reactive client control.
+Using 1 threads for each Supplier.
+Using 1 threads for each Consumer.
+ReBound ID: MC_ArchiveNotifyEventChannelFactory
+OpenJDK 64-Bit Server VM warning: Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "alma.acs.classloading.AcsSystemClassLoader"). To use archived non-system classes, this property must be not be set
+2021-02-09T14:54:26.593 INFO [acsNotifyService] Starting Alarm Notify Service
+Name Service without channel entries in the endpoint 10.0.2.15:3007
+Using reactive client control.
+Using 1 threads for each Supplier.
+Using 1 threads for each Consumer.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/vagrant/INTROOT/lib/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/alma/ACS-2020AUG/ACSSW/lib/slf4j-acs.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+0    INFO  ORB                - 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JacORB V3.9 (www.jacorb.org)
+	(C) The JacORB project 1997-2015
+	06 November 2020 09:26 with SHA ACS build based on 150a4c9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15   INFO  ORB                - Initialising ORB with ID: 
+ReBound ID: MC_AlarmNotifyEventChannelFactory
+133  INFO  InterceptorManager - InterceptorManager started with 0 Server Interceptors, 0 Client Interceptors and 1 IOR Interceptors
+2021-02-09T14:54:27.836 INFO [CDB] DALImpl will use XSD caching for xerces sax parser ? false
+2021-02-09T14:54:27.962 INFO [CDB] DAL root is: /home/vagrant/science-alert-generation/supervisor/sag_supervisor/test/../CDB/
+2021-02-09T14:54:28.187 INFO [acsACSLogService] Starting ACS Log service
+983  INFO  AOM                - oid: 43 44 42                                                    CDBobject is activated
+1499 INFO  ClientConnectionManager - ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3012 (3116c353)
+1507 INFO  ClientConnectionManager - ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3001 (e3c0e40)
+1528 INFO  ClientIIOPConnection - Connected to 10.0.2.15:3001 from local port 39536
+1537 INFO  ClientConnectionManager - ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (e3c0e40)
+2021-02-09T14:54:28.829 INFO [CDB] JDAL is ready and waiting ...
+JDAL is ready and waiting ...
+Will retrieve the log service reference from the naming service...
+1568 INFO  ClientConnectionManager - ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3003 (6337c201)
+1592 INFO  ClientConnection   - Negotiated char codeset of ISO8859_1 and wchar of UTF16
+1594 INFO  ClientIIOPConnection - Connected to 10.0.2.15:3003 from local port 48178
+2021-02-09T14:54:29.638 INFO [acsAlarmService] Starting ACS AlarmService
+ --endorsed -- alma.acs.alarmsystem.corbaservice.AlarmSystemCorbaServer -jacorb -OAIAddr 10.0.2.15 -OAport 3013
+2021-02-09T14:54:29.955 INFO [acsStartJava] Starting Java application: alma.acs.alarmsystem.corbaservice.AlarmSystemCorbaServer -jacorb -OAIAddr 10.0.2.15 -OAport 3013
+2021-02-09T14:54:29.977 INFO [acsStartJava] Using endorsed jar files in: /home/vagrant/INTROOT/lib/endorsed:/alma/ACS-2020AUG/ACSSW/lib/endorsed:/alma/ACS-2020AUG/JacORB/lib/endorsed:
+OpenJDK 64-Bit Server VM warning: Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "alma.acs.classloading.AcsSystemClassLoader"). To use archived non-system classes, this property must be not be set
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/vagrant/INTROOT/lib/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/alma/ACS-2020AUG/ACSSW/lib/slf4j-acs.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+2021-02-09T14:54:32.165 INFO [unknown@AlarmService] 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JacORB V3.9 (www.jacorb.org)
+	(C) The JacORB project 1997-2015
+	06 November 2020 09:26 with SHA ACS build based on 150a4c9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-02-09T14:54:32.278 INFO [unknown@AlarmService] Initialising ORB with ID: 
+2021-02-09T14:54:32.378 INFO [unknown@AlarmService] InterceptorManager started with 0 Server Interceptors, 0 Client Interceptors and 1 IOR Interceptors
+Will retrieve the log service reference from the naming service...
+2021-02-09T14:54:32.940 INFO [unknown@AlarmService] ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:32.964 INFO [unknown@AlarmService] Connected to 10.0.2.15:3001 from local port 39540
+2021-02-09T14:54:33.010 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.029 INFO [unknown@AlarmService] ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3003 (34f7cfd9)
+2021-02-09T14:54:33.035 INFO [unknown@AlarmService] Negotiated char codeset of ISO8859_1 and wchar of UTF16
+2021-02-09T14:54:33.035 INFO [unknown@AlarmService] Connected to 10.0.2.15:3003 from local port 48182
+2021-02-09T14:54:33.119 INFO [unknown@AlarmService] oid: 41 63 73 41 6C 61 72 6D 53 65 72 76 69 63 65                AcsAlarmServiceobject is activated
+2021-02-09T14:54:33.120 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.121 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.124 INFO [unknown@AlarmService] ClientConnectionManager: created new ClientGIOPConnection to 10.0.2.15:3012 (5403f35f)
+2021-02-09T14:54:33.155 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.156 INFO [unknown@AlarmService] oid: 41 63 73 41 6C 61 72 6D 53 65 72 76 69 63 65                AcsAlarmServiceobject is deactivated
+2021-02-09T14:54:33.163 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.164 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3012 (5403f35f)
+2021-02-09T14:54:33.165 INFO [unknown@AlarmService] Negotiated char codeset of ISO8859_1 and wchar of UTF16
+2021-02-09T14:54:33.166 INFO [unknown@AlarmService] Connected to 10.0.2.15:3012 from local port 33236
+5888 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33236
+2021-02-09T14:54:33.402 NOTICE [CDB] Curl 'Alarms/Administrative/AlarmSystemConfiguration' does not exist.
+2021-02-09T14:54:33.410 INFO [AlarmService] Starting the ACS implementation of the alarm service
+2021-02-09T14:54:33.414 INFO [unknown@AlarmService] oid: 41 63 73 41 6C 61 72 6D 53 65 72 76 69 63 65                AcsAlarmServiceobject is activated
+2021-02-09T14:54:33.419 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:54:33.429 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+The alarm service is ready and waiting
+2021-02-09T14:54:33.448 INFO [acsStartORBSRVC] For this ACS session, please do an 'export ACS_INSTANCE=0' on all terminals running ACS clients.
+2021-02-09T14:54:33.454 INFO [acsStartORBSRVC] The acsStartORBSRVC script has now completed!
+2021-02-09T14:54:33.735 INFO [Starting jManager] 
+ --endorsed --noClassLoader --noAutoClasspath --addToClasspath openjdk-orb-jdk9-supplement-1.0.1.Final.jar:pfl-basic-4.0.1.jar:acsASsources.jar:acscommon.jar:acscomponent.jar:acsContainerServices.jar:acsdaemon.jar:acsdaemonErrType.jar:acserr.jar:acserrj.jar:acsErrTypeAlarmSourceFactory.jar:ACSErrTypeCommon.jar:ACSErrTypeCORBA.jar:ACSErrTypeJavaNative.jar:ACSErrTypeOK.jar:acsjlog.jar:acsjms.jar:ACSJMSMessageEntity.jar:acsnc.jar:acsncErrType.jar:AcsNCTraceLogLTS.jar:AlarmSourceSchemaBindings.jar:alarmsysteminterface.jar:castor.jar:cdbDAL.jar:cdbErrType.jar:CDB.jar:cmwmom.jar:commons-logging-1.2.jar:commons-math-2.1.jar:jACSUtil.jar:jacsutil2.jar:JavaContainerError.jar:jcontnc.jar:jmanagerErrType.jar:jManager.jar:jms.jar:laserutil.jar:log4j-1.2.17.jar:logging_idl.jar:maciErrType.jar:maci.jar:maciSchemaBindings.jar:NotifyExt.jar:NotifyMonitoringExt.jar:prevayler-1.02.001.jar:repeatGuard.jar:xalan.jar:slf4j-api-1.7.23.jar:slf4j-acs.jar:xalan_serializer.jar -D jacorb.poa.thread_pool_max=200 -D jacorb.poa.queue_max=500 -D NamingServiceRemoteDirectory.reference=iiop://10.0.2.15:3001 -D DAL.defaultReference=corbaloc::10.0.2.15:3012/CDB -D OAPort=3000 -D manager.debug.rememberOldHandles -- com.cosylab.acs.maci.manager.app.Manager -OAIAddr=10.0.2.15 -n
+2021-02-09T14:54:34.163 INFO [acsStartJava] Starting Java application: com.cosylab.acs.maci.manager.app.Manager -OAIAddr=10.0.2.15 -n
+2021-02-09T14:54:34.179 INFO [acsStartJava] Using endorsed jar files in: /home/vagrant/INTROOT/lib/endorsed:/alma/ACS-2020AUG/ACSSW/lib/endorsed:/alma/ACS-2020AUG/JacORB/lib/endorsed:
+2021-02-09T14:54:35.071 DELOUSE [alma.acs.logging.config.LogConfig] Logging configuration has been initialized, but not from CDB settings.
+2021-02-09T14:54:35.223 FINER [alma.acs.logging] Changed processName='null' to 'Manager' and updated logger names.
+2021-02-09T14:54:35.236 INFO [Manager] Initializing Manager.
+2021-02-09T14:54:35.406 INFO [alma.acs.logging] Logger jacorb@Manager created with custom log levels local=Info, remote=Info to avoid log jams due to careless default log level settings.
+2021-02-09T14:54:35.685 INFO [Manager] Connecting to CORBA Naming Service with reference 'iiop://10.0.2.15:3001'...
+2021-02-09T14:54:36.143 INFO [Manager] Connected to CORBA Naming Service with reference 'iiop://10.0.2.15:3001'.
+Recovering system state...
+Skipping saved manager state!
+2021-02-09T14:54:36.261 INFO [Manager] Connecting to DAL 'corbaloc::10.0.2.15:3012/CDB'...
+9067 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33240
+2021-02-09T14:54:36.405 INFO [Manager] Connected to DAL 'corbaloc::10.0.2.15:3012/CDB'.
+2021-02-09T14:54:37.139 FINER [alma.acs.logging] Updated logging configuration based on CDB entry <?xml version="1.0" encoding="UTF-8"?>
+<LoggingConfig xmlns="urn:schemas-cosylab-com:LoggingConfig:1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    minLogLevel="2" minLogLevelLocal="2" centralizedLogger="Log"
+    dispatchPacketSize="100" immediateDispatchLevel="10"
+    flushPeriodSeconds="10" maxLogQueueSize="1000" maxLogsPerSecond="-1" xsi:type="LoggingConfig">
+    <e minLogLevel="5" minLogLevelLocal="4" Name="jacorb@Manager"/>
+</LoggingConfig> with env vars having precedence over CDB
+2021-02-09T14:54:37.278 INFO [CDB] Recovery file: /home/vagrant/ACSDATA_ORIG/tmp/actl-dev-vm/ACS_INSTANCE.0/CDB_Recovery.txt
+2021-02-09T14:54:37.350 CONFIG [Manager] Connected to DAO 'MACI/Managers/Manager'.
+2021-02-09T14:54:37.375 CONFIG [Manager] Connected to DAO 'MACI/Components'.
+2021-02-09T14:54:37.398 INFO [Manager] Found 5 component entries in the configuration database.
+2021-02-09T14:54:37.478 FINER [ManagerContainerServices] [alarm_osci] started task loop with FIXED_DELAY=1000 ms.
+2021-02-09T14:54:37.524 FINER [ManagerContainerServices] [alarm_timer] started task loop with FIXED_DELAY=30000 ms.
+2021-02-09T14:54:37.551 INFO [Manager] Manager initialized with state persistence disabled.
+2021-02-09T14:54:37.553 FINER [Manager] Orb profiling set up, using class com.cosylab.acs.maci.manager.app.ManagerOrbProfiler
+2021-02-09T14:54:37.653 INFO [Manager] Manager activated with IOR:000000000000001C49444C3A696A732E73692F6D6163692F4D616E616765723A312E3000000000010000000000000070000102000000000A31302E302E322E3135000BB8000000164F52422F4D616E61676572504F412F4D616E616765720000000000020000000000000008000000004A41430000000001000000240000000000010001000000020001000F0501000100010109000000020501000100010100
+2021-02-09T14:54:37.676 CONFIG [Manager] No domain list given, manager federation disabled.
+2021-02-09T14:54:37.694 INFO [Manager] All initializations done.
+2021-02-09T14:54:37.694 INFO [Manager] AcsManagerStatusMessage_ManagerStarted Manager Application initialized.
+
+2021-02-09T14:54:37.742 WARNING [Manager] No list of services daemons available in the CDB. In an operational environment using ACS daemons, this is a severe error!! It is OK only if you run the system without using these daemons. 
+2021-02-09T14:54:37.745 INFO [Manager] 'Manager' requested component 'curl:///Log'.
+2021-02-09T14:54:37.793 INFO [acsManager] Manager is up and running
+2021-02-09T14:54:37.803 INFO [Manager] Component 'curl:///Log' provided to 'Manager'.
+2021-02-09T14:54:37.964 NOTICE [CDB] Curl 'MACI/Containers' does not exist.
+2021-02-09T14:54:38.301 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:38.619 FINE [Manager] ORB status: connectionThreadsUsed=0%, lost calls=0, requestQueueMaxUsePercent=0% (in POA 'null').
+2021-02-09T14:54:38.678 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:38.680 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:38.681 FINE [Manager] Client with handle 'Handle (0x2180001) = { type = CLIENT, key = (0x18), id = (0x1) }' has logged in.
+2021-02-09T14:54:38.687 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:38.691 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+11412 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33250
+2021-02-09T14:54:38.698 FINE [Manager] Client with handle 'Handle (0x2180001) = { type = CLIENT, key = (0x18), id = (0x1) }' is logging out.
+2021-02-09T14:54:38.704 INFO [Manager] Client 'acsCORBA Client' logged out.
+11459 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33250
+2021-02-09T14:54:49.026 INFO [acsstartupLoadIFR] Loading of IDL interfaces in Interface Repository completed OK
+2021-02-09T14:54:49.123 INFO [acsStart] For this ACS session, please do an 'export ACS_INSTANCE=0' on all terminals running ACS clients.
+2021-02-09T14:54:49.138 INFO [acsStart] ACS is up and running
+2021-02-09T14:54:50.918 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:50.918 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:50.918 FINE [Manager] Client with handle 'Handle (0x26b0002) = { type = CLIENT, key = (0x6b), id = (0x2) }' has logged in.
+2021-02-09T14:54:50.921 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:50.938 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:50.969 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:50.970 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:50.970 FINE [Manager] Client with handle 'Handle (0x2d60003) = { type = CLIENT, key = (0xd6), id = (0x3) }' has logged in.
+2021-02-09T14:54:50.976 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:50.980 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.074 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.079 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.083 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.084 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+23806 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33276
+23808 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33278
+2021-02-09T14:54:51.272 FINER [alma.acs.logging] Changed processName='Manager' to 'Manager-ContainerProxy' and updated logger names.
+2021-02-09T14:54:51.283 FINE [Manager] 'pyContainerForSubArrayManager_1' is logging in.
+2021-02-09T14:54:51.314 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:51.317 INFO [Manager] Container 'pyContainerForSubArrayManager_1' logged in.
+2021-02-09T14:54:51.318 FINE [Manager] Client with handle 'Handle (0x4000001) = { type = CONTAINER, key = (0x0), id = (0x1) }' has logged in.
+2021-02-09T14:54:51.326 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.330 INFO [Manager] Container 'pyContainerForSubArrayManager_1' startup statistics: 0 components queued to be activated.
+2021-02-09T14:54:51.398 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.400 FINE [Manager] 'aragornContainer' is logging in.
+2021-02-09T14:54:51.419 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:51.421 INFO [Manager] Container 'aragornContainer' logged in.
+2021-02-09T14:54:51.421 FINE [Manager] Client with handle 'Handle (0x4790002) = { type = CONTAINER, key = (0x79), id = (0x2) }' has logged in.
+2021-02-09T14:54:51.421 INFO [Manager] Container 'aragornContainer' startup statistics: 4 components queued to be activated.
+2021-02-09T14:54:51.424 INFO [Manager] Activating component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) on container 'aragornContainer'.
+2021-02-09T14:54:51.426 INFO [Manager] Container 'pyContainerForSubArrayManager_1' startup statistics: 0 of 0 components activated.
+2021-02-09T14:54:51.471 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.563 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) is running on container 'aragornContainer'.
+2021-02-09T14:54:51.633 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSubArrayManager_1' does not exist.
+2021-02-09T14:54:51.700 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSubArrayManager_1/LoggingConfig' does not exist.
+2021-02-09T14:54:51.717 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:51.717 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:51.718 FINE [Manager] Client with handle 'Handle (0x2730004) = { type = CLIENT, key = (0x73), id = (0x4) }' has logged in.
+2021-02-09T14:54:51.721 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.722 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:51.729 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.742 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:51.742 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:51.742 FINE [Manager] Client with handle 'Handle (0x2d50005) = { type = CLIENT, key = (0xd5), id = (0x5) }' has logged in.
+2021-02-09T14:54:51.744 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:51.753 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.782 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:51.782 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:51.783 FINE [Manager] Client with handle 'Handle (0x2170006) = { type = CLIENT, key = (0x17), id = (0x6) }' has logged in.
+2021-02-09T14:54:51.813 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:51.821 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.825 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.896 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.897 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.898 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+24638 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33298
+2021-02-09T14:54:51.919 NOTICE [CDB] Curl 'MACI/Containers/aragornContainer' does not exist.
+2021-02-09T14:54:51.946 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:51.948 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+24669 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33300
+24672 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33302
+2021-02-09T14:54:51.968 NOTICE [CDB] Curl 'MACI/Containers/aragornContainer/LoggingConfig' does not exist.
+2021-02-09T14:54:51.991 FINE [Manager] 'pyContainerForSubArrayManager_2' is logging in.
+2021-02-09T14:54:51.992 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:51.992 INFO [Manager] Container 'pyContainerForSubArrayManager_2' logged in.
+2021-02-09T14:54:51.993 FINE [Manager] Client with handle 'Handle (0x4260003) = { type = CONTAINER, key = (0x26), id = (0x3) }' has logged in.
+2021-02-09T14:54:51.995 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:51.998 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.000 INFO [Manager] Container 'pyContainerForSubArrayManager_2' startup statistics: 0 components queued to be activated.
+2021-02-09T14:54:52.001 INFO [Manager] Container 'pyContainerForSubArrayManager_2' startup statistics: 0 of 0 components activated.
+2021-02-09T14:54:52.012 FINE [Manager] 'pyContainerForSchedulingBlock_2' is logging in.
+2021-02-09T14:54:52.055 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSubArrayManager_2' does not exist.
+2021-02-09T14:54:52.057 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.059 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:52.059 INFO [Manager] Container 'pyContainerForSchedulingBlock_2' logged in.
+2021-02-09T14:54:52.059 FINE [Manager] Client with handle 'Handle (0x40f0004) = { type = CONTAINER, key = (0xf), id = (0x4) }' has logged in.
+2021-02-09T14:54:52.060 INFO [Manager] Container 'pyContainerForSchedulingBlock_2' startup statistics: 0 components queued to be activated.
+2021-02-09T14:54:52.060 INFO [Manager] Container 'pyContainerForSchedulingBlock_2' startup statistics: 0 of 0 components activated.
+2021-02-09T14:54:52.066 FINE [Manager] 'pyContainerForSchedulingBlock_1' is logging in.
+2021-02-09T14:54:52.068 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.098 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSubArrayManager_2/LoggingConfig' does not exist.
+2021-02-09T14:54:52.107 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.109 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.110 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:54:52.110 INFO [Manager] Container 'pyContainerForSchedulingBlock_1' logged in.
+2021-02-09T14:54:52.110 FINE [Manager] Client with handle 'Handle (0x4180005) = { type = CONTAINER, key = (0x18), id = (0x5) }' has logged in.
+2021-02-09T14:54:52.113 INFO [Manager] Container 'pyContainerForSchedulingBlock_1' startup statistics: 0 components queued to be activated.
+2021-02-09T14:54:52.113 INFO [Manager] Container 'pyContainerForSchedulingBlock_1' startup statistics: 0 of 0 components activated.
+2021-02-09T14:54:52.114 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.120 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.122 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.123 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.158 NOTICE [CDB] Curl 'MACI/Channels/mon' does not exist.
+2021-02-09T14:54:52.159 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.160 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.191 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSchedulingBlock_1' does not exist.
+2021-02-09T14:54:52.225 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSchedulingBlock_2' does not exist.
+2021-02-09T14:54:52.256 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSchedulingBlock_1/LoggingConfig' does not exist.
+2021-02-09T14:54:52.284 NOTICE [CDB] Curl 'MACI/Channels' does not exist.
+2021-02-09T14:54:52.310 NOTICE [CDB] Curl 'MACI/Containers/pyContainerForSchedulingBlock_2/LoggingConfig' does not exist.
+2021-02-09T14:54:52.366 NOTICE [CDB] Curl 'MACI/Channels/adh' does not exist.
+2021-02-09T14:54:52.368 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.368 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.424 NOTICE [CDB] Curl 'MACI/Channels/cc' does not exist.
+2021-02-09T14:54:52.425 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.426 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.472 NOTICE [CDB] Curl 'MACI/Channels/rm' does not exist.
+2021-02-09T14:54:52.473 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.474 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.516 NOTICE [CDB] Curl 'MACI/Channels/hmi' does not exist.
+2021-02-09T14:54:52.517 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.517 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.527 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.527 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.538 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.538 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.544 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.544 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.549 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.549 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.554 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:52.554 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+25326 INFO  AOM                - oid: 4D 41 43 49 2F 43 6F 6D 70 6F 6E 65 6E 74 73 2F 50 59 5F 53 MACI/Components/PY_S41 47 4E 4F 54 49 46 49 43 41 54 49 4F 4E 5F 4D 41 4E 41 47 AGNOTIFICATION_MANAG45 52                                                       ERobject is activated
+2021-02-09T14:54:52.620 DEBUG [Manager-ContainerProxy] CBComponentInfo.done called with desc.id_tag = 1
+2021-02-09T14:54:52.622 DEBUG [Manager] Container responded with 'done' callback to indicate activation of a component 'PY_SAGNOTIFICATION_MANAGER'.
+2021-02-09T14:54:52.624 INFO [Manager] Component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) activated successfully.
+2021-02-09T14:54:52.625 FINE [Manager] Component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) activated.
+2021-02-09T14:54:52.631 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) has finished on container 'aragornContainer'.
+2021-02-09T14:54:52.632 INFO [Manager] Activating component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) on container 'aragornContainer'.
+2021-02-09T14:54:52.642 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) is running on container 'aragornContainer'.
+2021-02-09T14:54:52.643 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.647 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.651 INFO [Manager] 'PY_SAGSUBARRAYMONITOR' requested component 'curl:///PY_SAGNOTIFICATION_MANAGER'.
+2021-02-09T14:54:52.652 INFO [Manager] Component 'curl:///PY_SAGNOTIFICATION_MANAGER' provided to 'PY_SAGSUBARRAYMONITOR'.
+25387 INFO  AOM                - oid: 4D 41 43 49 2F 43 6F 6D 70 6F 6E 65 6E 74 73 2F 50 59 5F 53 MACI/Components/PY_S41 47 53 55 42 41 52 52 41 59 4D 4F 4E 49 54 4F 52          AGSUBARRAYMONITORobject is activated
+2021-02-09T14:54:52.690 DEBUG [Manager-ContainerProxy] CBComponentInfo.done called with desc.id_tag = 2
+2021-02-09T14:54:52.691 DEBUG [Manager] Container responded with 'done' callback to indicate activation of a component 'PY_SAGSUBARRAYMONITOR'.
+2021-02-09T14:54:52.691 INFO [Manager] Component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) activated successfully.
+2021-02-09T14:54:52.691 FINE [Manager] Component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) activated.
+2021-02-09T14:54:52.691 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) has finished on container 'aragornContainer'.
+2021-02-09T14:54:52.691 INFO [Manager] Activating component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) on container 'aragornContainer'.
+2021-02-09T14:54:52.694 DELOUSE [Manager] Asynchronous activation of component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) is running on container 'aragornContainer'.
+2021-02-09T14:54:52.725 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:52.730 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.751 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:52.754 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.755 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:52.757 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.762 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.772 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.792 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.795 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.795 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:52.797 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.915 NOTICE [CDB] Curl 'alma/simulated/interfaces/cta/SAG_MODULE/SAGDatabase/1.0' does not exist.
+2021-02-09T14:54:52.931 FINE [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' is logging in.
+2021-02-09T14:54:52.931 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged in.
+2021-02-09T14:54:52.931 FINE [Manager] Client with handle 'Handle (0x2210007) = { type = CLIENT, key = (0x21), id = (0x7) }' has logged in.
+2021-02-09T14:54:52.935 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:52.938 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:52.939 INFO [Manager] Getting default component for type 'IDL:alma/ACSSim/Simulator:1.0'.
+2021-02-09T14:54:52.940 SEVERE [Manager] No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+com.cosylab.acs.maci.NoDefaultComponentException: No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+	at com.cosylab.acs.maci.plug.ManagerProxyImpl.get_default_component(ManagerProxyImpl.java:1361)
+	at si.ijs.maci.ManagerPOA._invoke(ManagerPOA.java:395)
+	at org.jacorb.poa.RequestProcessor.invokeOperation(RequestProcessor.java:414)
+	at org.jacorb.poa.RequestProcessor.process(RequestProcessor.java:738)
+	at org.jacorb.poa.RequestProcessor.run(RequestProcessor.java:909)
+Caused by: com.cosylab.acs.maci.NoDefaultComponentException: No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+	at com.cosylab.acs.maci.manager.ManagerImpl.internalRequestDefaultComponent(ManagerImpl.java:8364)
+	at com.cosylab.acs.maci.manager.ManagerImpl.getDefaultComponent(ManagerImpl.java:8185)
+	at com.cosylab.acs.maci.plug.ManagerProxyImpl.get_default_component(ManagerProxyImpl.java:1331)
+	... 4 more
+2021-02-09T14:54:52.974 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:52.976 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+25711 INFO  AOM                - oid: 4D 41 43 49 2F 43 6F 6D 70 6F 6E 65 6E 74 73 2F 53 49 4D 5F MACI/Components/SIM_53 41 47 5F 44 41 54 41 42 41 53 45                         SAG_DATABASEobject is activated
+2021-02-09T14:54:53.015 DEBUG [Manager-ContainerProxy] CBComponentInfo.done called with desc.id_tag = 3
+2021-02-09T14:54:53.016 DEBUG [Manager] Container responded with 'done' callback to indicate activation of a component 'SIM_SAG_DATABASE'.
+2021-02-09T14:54:53.016 INFO [Manager] Component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) activated successfully.
+2021-02-09T14:54:53.016 FINE [Manager] Component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) activated.
+2021-02-09T14:54:53.017 DELOUSE [Manager] Asynchronous activation of component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) has finished on container 'aragornContainer'.
+2021-02-09T14:54:53.017 INFO [Manager] Activating component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) on container 'aragornContainer'.
+2021-02-09T14:54:53.021 DELOUSE [Manager] Asynchronous activation of component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) is running on container 'aragornContainer'.
+2021-02-09T14:54:53.031 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:53.034 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:53.034 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:53.037 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+2021-02-09T14:54:53.168 NOTICE [CDB] Curl 'alma/simulated/interfaces/cta/EXTERNAL_MODULE/Monitoring/1.0' does not exist.
+2021-02-09T14:54:53.184 FINE [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' is logging in.
+2021-02-09T14:54:53.185 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged in.
+2021-02-09T14:54:53.185 FINE [Manager] Client with handle 'Handle (0x2860008) = { type = CLIENT, key = (0x86), id = (0x8) }' has logged in.
+2021-02-09T14:54:53.186 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:53.189 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:53.190 INFO [Manager] Getting default component for type 'IDL:alma/ACSSim/Simulator:1.0'.
+2021-02-09T14:54:53.190 SEVERE [Manager] No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+com.cosylab.acs.maci.NoDefaultComponentException: No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+	at com.cosylab.acs.maci.plug.ManagerProxyImpl.get_default_component(ManagerProxyImpl.java:1361)
+	at si.ijs.maci.ManagerPOA._invoke(ManagerPOA.java:395)
+	at org.jacorb.poa.RequestProcessor.invokeOperation(RequestProcessor.java:414)
+	at org.jacorb.poa.RequestProcessor.process(RequestProcessor.java:738)
+	at org.jacorb.poa.RequestProcessor.run(RequestProcessor.java:909)
+Caused by: com.cosylab.acs.maci.NoDefaultComponentException: No default component for type 'IDL:alma/ACSSim/Simulator:1.0' found.
+	at com.cosylab.acs.maci.manager.ManagerImpl.internalRequestDefaultComponent(ManagerImpl.java:8364)
+	at com.cosylab.acs.maci.manager.ManagerImpl.getDefaultComponent(ManagerImpl.java:8185)
+	at com.cosylab.acs.maci.plug.ManagerProxyImpl.get_default_component(ManagerProxyImpl.java:1331)
+	... 4 more
+2021-02-09T14:54:53.203 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:53.204 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:53.214 INFO [Manager] 'acsCORBA Client' requested component 'curl:///NameService'.
+2021-02-09T14:54:53.214 INFO [Manager] Component 'curl:///NameService' provided to 'acsCORBA Client'.
+2021-02-09T14:54:53.245 INFO [Manager] 'acsCORBA Client' requested component 'curl:///InterfaceRepository'.
+2021-02-09T14:54:53.252 INFO [Manager] Component 'curl:///InterfaceRepository' provided to 'acsCORBA Client'.
+25998 INFO  AOM                - oid: 4D 41 43 49 2F 43 6F 6D 70 6F 6E 65 6E 74 73 2F 53 49 4D 5F MACI/Components/SIM_4D 4F 4E 49 54 4F 52 49 4E 47                               MONITORINGobject is activated
+2021-02-09T14:54:53.289 DEBUG [Manager-ContainerProxy] CBComponentInfo.done called with desc.id_tag = 4
+2021-02-09T14:54:53.289 DEBUG [Manager] Container responded with 'done' callback to indicate activation of a component 'SIM_MONITORING'.
+2021-02-09T14:54:53.289 INFO [Manager] Component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) activated successfully.
+2021-02-09T14:54:53.289 FINE [Manager] Component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) activated.
+2021-02-09T14:54:53.290 DELOUSE [Manager] Asynchronous activation of component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) has finished on container 'aragornContainer'.
+2021-02-09T14:54:53.290 INFO [Manager] Container 'aragornContainer' startup statistics: 4 of 4 components activated.
+2021-02-09T14:54:59.250 FINE [Manager] 'acsCORBA Client' is logging in.
+2021-02-09T14:54:59.250 INFO [Manager] Client 'acsCORBA Client' logged in.
+2021-02-09T14:54:59.250 FINE [Manager] Client with handle 'Handle (0x2890009) = { type = CLIENT, key = (0x89), id = (0x9) }' has logged in.
+2021-02-09T14:54:59.260 INFO [Manager] 'acsCORBA Client' requested component 'curl:///ACSLogSvc'.
+2021-02-09T14:54:59.264 INFO [Manager] Component 'curl:///ACSLogSvc' provided to 'acsCORBA Client'.
+2021-02-09T14:54:59.275 FINE [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' is logging in.
+2021-02-09T14:54:59.276 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged in.
+2021-02-09T14:54:59.277 FINE [Manager] Client with handle 'Handle (0x278000a) = { type = CLIENT, key = (0x78), id = (0xa) }' has logged in.
+2021-02-09T14:54:59.280 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:59.285 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:59.304 INFO [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' requested component 'curl:///PY_SAGSUPERVISOR'.
+2021-02-09T14:54:59.304 INFO [Manager] Activating component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) on container 'aragornContainer'.
+2021-02-09T14:54:59.308 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) is running on container 'aragornContainer'.
+2021-02-09T14:54:59.356 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:59.362 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:59.369 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:59.373 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:59.378 FINE [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' is logging in.
+2021-02-09T14:54:59.378 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged in.
+2021-02-09T14:54:59.379 FINE [Manager] Client with handle 'Handle (0x2c6000b) = { type = CLIENT, key = (0xc6), id = (0xb) }' has logged in.
+2021-02-09T14:54:59.397 INFO [Manager] 'acsCORBA Client' requested component 'curl:///CDB'.
+2021-02-09T14:54:59.400 INFO [Manager] Component 'curl:///CDB' provided to 'acsCORBA Client'.
+2021-02-09T14:54:59.402 INFO [Manager] 'PY_SAGSUPERVISOR' requested component 'curl:///SIM_SAG_DATABASE'.
+2021-02-09T14:54:59.403 INFO [Manager] Component 'curl:///SIM_SAG_DATABASE' provided to 'PY_SAGSUPERVISOR'.
+32132 INFO  AOM                - oid: 4D 41 43 49 2F 43 6F 6D 70 6F 6E 65 6E 74 73 2F 50 59 5F 53 MACI/Components/PY_S41 47 53 55 50 45 52 56 49 53 4F 52                         AGSUPERVISORobject is activated
+2021-02-09T14:54:59.428 DEBUG [Manager-ContainerProxy] CBComponentInfo.done called with desc.id_tag = 5
+2021-02-09T14:54:59.428 DEBUG [Manager] Container responded with 'done' callback to indicate activation of a component 'PY_SAGSUPERVISOR'.
+2021-02-09T14:54:59.428 INFO [Manager] Component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) activated successfully.
+2021-02-09T14:54:59.429 FINE [Manager] Component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) activated.
+2021-02-09T14:54:59.429 DELOUSE [Manager] Asynchronous activation of component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) has finished on container 'aragornContainer'.
+2021-02-09T14:54:59.429 INFO [Manager] Component 'curl:///PY_SAGSUPERVISOR' provided to 'Python Client: initialized by vagrant@actl-dev-vm'.
+2021-02-09T14:54:59.430 INFO [Manager] 'Python Client: initialized by vagrant@actl-dev-vm' requested release of component 'curl:///PY_SAGSUPERVISOR'.
+2021-02-09T14:54:59.433 INFO [Manager] Deactivating component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) on container 'aragornContainer'.
+2021-02-09T14:54:59.436 INFO [Manager] 'PY_SAGSUPERVISOR' requested release of component 'curl:///SIM_SAG_DATABASE'.
+2021-02-09T14:54:59.437 FINE [Manager] Component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) released.
+2021-02-09T14:54:59.437 INFO [Manager] Component 'curl:///SIM_SAG_DATABASE' released by 'PY_SAGSUPERVISOR'.
+2021-02-09T14:54:59.445 INFO [Manager] Component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) deactivated.
+2021-02-09T14:54:59.445 FINE [Manager] Component 'PY_SAGSUPERVISOR' (Handle (0x1000005) = { type = COMPONENT, key = (0x0), id = (0x5) }) released.
+2021-02-09T14:54:59.445 INFO [Manager] Component 'curl:///PY_SAGSUPERVISOR' released by 'Python Client: initialized by vagrant@actl-dev-vm'.
+2021-02-09T14:54:59.515 FINE [Manager] Client with handle 'Handle (0x278000a) = { type = CLIENT, key = (0x78), id = (0xa) }' is logging out.
+2021-02-09T14:54:59.515 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged out.
+2021-02-09T14:54:59.516 FINE [Manager] Client with handle 'Handle (0x2890009) = { type = CLIENT, key = (0x89), id = (0x9) }' is logging out.
+2021-02-09T14:54:59.516 INFO [Manager] Client 'acsCORBA Client' logged out.
+2021-02-09T14:54:59.907 INFO [Manager] 'Manager' requested release of component 'curl:///SIM_MONITORING'.
+2021-02-09T14:54:59.907 INFO [Manager] Deactivating component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) on container 'aragornContainer'.
+2021-02-09T14:54:59.913 FINE [Manager] Client with handle 'Handle (0x40f0004) = { type = CONTAINER, key = (0xf), id = (0x4) }' is logging out.
+2021-02-09T14:54:59.914 INFO [Manager] Container 'pyContainerForSchedulingBlock_2' logged out.
+2021-02-09T14:54:59.916 FINE [Manager] Client with handle 'Handle (0x2170006) = { type = CLIENT, key = (0x17), id = (0x6) }' is logging out.
+2021-02-09T14:54:59.916 INFO [Manager] Client 'acsCORBA Client' logged out.
+2021-02-09T14:54:59.921 INFO [Manager] Component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) deactivated.
+2021-02-09T14:54:59.921 FINE [Manager] Component 'SIM_MONITORING' (Handle (0x1000004) = { type = COMPONENT, key = (0x0), id = (0x4) }) released.
+2021-02-09T14:54:59.921 INFO [Manager] Component 'curl:///SIM_MONITORING' released by 'Manager'.
+2021-02-09T14:54:59.922 INFO [Manager] 'Manager' requested release of component 'curl:///SIM_SAG_DATABASE'.
+2021-02-09T14:54:59.922 INFO [Manager] Deactivating component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) on container 'aragornContainer'.
+2021-02-09T14:54:59.945 FINE [Manager] Client with handle 'Handle (0x2c6000b) = { type = CLIENT, key = (0xc6), id = (0xb) }' is logging out.
+2021-02-09T14:54:59.945 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged out.
+2021-02-09T14:54:59.964 FINE [Manager] Client with handle 'Handle (0x26b0002) = { type = CLIENT, key = (0x6b), id = (0x2) }' is logging out.
+2021-02-09T14:54:59.965 INFO [Manager] Client 'acsCORBA Client' logged out.
+2021-02-09T14:54:59.980 FINE [Manager] Client with handle 'Handle (0x4180005) = { type = CONTAINER, key = (0x18), id = (0x5) }' is logging out.
+2021-02-09T14:54:59.980 INFO [Manager] Container 'pyContainerForSchedulingBlock_1' logged out.
+2021-02-09T14:54:59.981 FINE [Manager] Client with handle 'Handle (0x2d50005) = { type = CLIENT, key = (0xd5), id = (0x5) }' is logging out.
+2021-02-09T14:54:59.982 INFO [Manager] Client 'acsCORBA Client' logged out.
+2021-02-09T14:55:00.054 INFO [Manager] Component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) deactivated.
+2021-02-09T14:55:00.055 FINE [Manager] Component 'SIM_SAG_DATABASE' (Handle (0x1000003) = { type = COMPONENT, key = (0x0), id = (0x3) }) released.
+2021-02-09T14:55:00.055 INFO [Manager] Component 'curl:///SIM_SAG_DATABASE' released by 'Manager'.
+2021-02-09T14:55:00.055 INFO [Manager] 'Manager' requested release of component 'curl:///PY_SAGSUBARRAYMONITOR'.
+2021-02-09T14:55:00.056 INFO [Manager] Deactivating component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) on container 'aragornContainer'.
+2021-02-09T14:55:00.091 FINE [Manager] Client with handle 'Handle (0x4000001) = { type = CONTAINER, key = (0x0), id = (0x1) }' is logging out.
+2021-02-09T14:55:00.092 INFO [Manager] Container 'pyContainerForSubArrayManager_1' logged out.
+2021-02-09T14:55:00.092 FINE [Manager] Client with handle 'Handle (0x2d60003) = { type = CLIENT, key = (0xd6), id = (0x3) }' is logging out.
+2021-02-09T14:55:00.093 INFO [Manager] Client 'acsCORBA Client' logged out.
+2021-02-09T14:55:00.106 INFO [Manager] 'PY_SAGSUBARRAYMONITOR' requested release of component 'curl:///PY_SAGNOTIFICATION_MANAGER'.
+2021-02-09T14:55:00.106 FINE [Manager] Component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) released.
+2021-02-09T14:55:00.106 INFO [Manager] Component 'curl:///PY_SAGNOTIFICATION_MANAGER' released by 'PY_SAGSUBARRAYMONITOR'.
+2021-02-09T14:55:00.111 INFO [Manager] Component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) deactivated.
+2021-02-09T14:55:00.112 FINE [Manager] Component 'PY_SAGSUBARRAYMONITOR' (Handle (0x1000002) = { type = COMPONENT, key = (0x0), id = (0x2) }) released.
+2021-02-09T14:55:00.112 INFO [Manager] Component 'curl:///PY_SAGSUBARRAYMONITOR' released by 'Manager'.
+2021-02-09T14:55:00.112 INFO [Manager] 'Manager' requested release of component 'curl:///PY_SAGNOTIFICATION_MANAGER'.
+2021-02-09T14:55:00.112 INFO [Manager] Deactivating component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) on container 'aragornContainer'.
+2021-02-09T14:55:00.249 FINE [Manager] Client with handle 'Handle (0x4260003) = { type = CONTAINER, key = (0x26), id = (0x3) }' is logging out.
+2021-02-09T14:55:00.249 INFO [Manager] Container 'pyContainerForSubArrayManager_2' logged out.
+2021-02-09T14:55:00.250 FINE [Manager] Client with handle 'Handle (0x2730004) = { type = CLIENT, key = (0x73), id = (0x4) }' is logging out.
+2021-02-09T14:55:00.251 INFO [Manager] Client 'acsCORBA Client' logged out.
+33148 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33300
+33167 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33298
+2021-02-09T14:55:00.540 FINE [Manager] Failed to create DAO for 'MACI/Containers'.
+2021-02-09T14:55:00.540 INFO [Manager] Component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) deactivated.
+2021-02-09T14:55:00.540 FINE [Manager] Component 'PY_SAGNOTIFICATION_MANAGER' (Handle (0x1000001) = { type = COMPONENT, key = (0x0), id = (0x1) }) released.
+2021-02-09T14:55:00.540 INFO [Manager] Component 'curl:///PY_SAGNOTIFICATION_MANAGER' released by 'Manager'.
+2021-02-09T14:55:00.546 INFO [Manager] 4 of 4 components released.
+2021-02-09T14:55:00.551 FINE [Manager] Client with handle 'Handle (0x4790002) = { type = CONTAINER, key = (0x79), id = (0x2) }' is logging out.
+2021-02-09T14:55:00.551 INFO [Manager] Container 'aragornContainer' logged out.
+33530 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33278
+2021-02-09T14:55:00.993 FINE [Manager] Client with handle 'Handle (0x2860008) = { type = CLIENT, key = (0x86), id = (0x8) }' is logging out.
+2021-02-09T14:55:00.994 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged out.
+2021-02-09T14:55:00.995 FINE [Manager] Client with handle 'Handle (0x2210007) = { type = CLIENT, key = (0x21), id = (0x7) }' is logging out.
+2021-02-09T14:55:00.995 INFO [Manager] Client 'Python Client: initialized by vagrant@actl-dev-vm' logged out.
+33914 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33302
+34157 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33276
+2021-02-09T14:55:06.723 INFO [Manager] Destroying Manager.
+2021-02-09T14:55:06.741 INFO [Manager] Manager is shutting down.
+2021-02-09T14:55:06.741 FINER [Manager] Canceling heartbeat task.
+2021-02-09T14:55:06.741 FINER [Manager] Notifying containers to disconnect or shutdown.
+2021-02-09T14:55:06.741 FINER [Manager] Waiting for tasks in thread pool to complete...
+2021-02-09T14:55:06.759 FINER [ManagerContainerServices] [alarm_osci] task finished within the specified 1 seconds
+2021-02-09T14:55:06.766 FINER [ManagerContainerServices] [alarm_timer] task finished within the specified 1 seconds
+2021-02-09T14:55:06.774 INFO [Manager] Manager shutdown completed.
+39509 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33240
+2021-02-09T14:55:10.387 INFO [unknown@AlarmService] Opened new server-side TCP/IP transport to 10.0.2.15:42970
+2021-02-09T14:55:10.426 INFO [unknown@AlarmService] Closed server-side transport to 10.0.2.15:42970
+2021-02-09T14:55:10.457 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:55:10.459 INFO [unknown@AlarmService] ClientConnectionManager: found ClientGIOPConnection to 10.0.2.15:3001 (11fc564b)
+2021-02-09T14:55:10.460 INFO [unknown@AlarmService] prepare ORB for shutdown...
+2021-02-09T14:55:10.461 INFO [unknown@AlarmService] POA asPOA destroyed
+2021-02-09T14:55:10.462 INFO [unknown@AlarmService] POA RootPOA destroyed
+2021-02-09T14:55:10.463 INFO [unknown@AlarmService] Client-side TCP transport to 10.0.2.15:3001 closed.
+2021-02-09T14:55:10.464 INFO [unknown@AlarmService] Client-side TCP transport to 10.0.2.15:3003 closed.
+43192 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33236
+2021-02-09T14:55:10.473 INFO [unknown@AlarmService] Client-side TCP transport to 10.0.2.15:3012 closed.
+2021-02-09T14:55:10.473 INFO [unknown@AlarmService] ORB shutdown complete
+43736 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:34389
+43740 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:34389
+46711 INFO  ServerIIOPConnection - Opened new server-side TCP/IP transport to 10.0.2.15:33336
+46739 INFO  ORB                - prepare ORB for shutdown...
+46744 INFO  ServerIIOPConnection - Closed server-side transport to 10.0.2.15:33336
+46744 INFO  ClientIIOPConnection - Client-side TCP transport to 10.0.2.15:3001 closed.
+46745 INFO  ClientIIOPConnection - Client-side TCP transport to 10.0.2.15:3003 closed.
+46745 INFO  ORB                - ORB shutdown complete
+2021-02-09T14:55:14.027 INFO [CDB] JDAL exiting ORB loop ...
+46761 INFO  POA                - POA dalPOA destroyed
+46763 INFO  POA                - POA RootPOA destroyed

@@ -1,0 +1,91 @@
+2021-02-09T14:56:50.986 INFO [acsStartContainer] Running the container with these arguments: 'ACSStartContainerPy pyContainerForSchedulingBlock_1 -ORBendPoint giop:tcp:10.0.2.15:4006 -m corbaloc::10.0.2.15:3000/Manager'
+ContainerStatusMsg: Startup begins
+2021-02-09T14:56:52.387 AlarmSystemInterfaceFactory init - Using ACS alarm system
+ContainerStatusMsg: ORB initialization begins
+ContainerStatusMsg: ORB initialization ends
+ContainerStatusMsg: Manager access initialization begins
+ContainerStatusMsg: Manager access initialization ends
+ContainerStatusMsg: Automatic component loading begins
+2021-02-09T14:56:52.470 pyContainerForSchedulingBlock_1 taggedmessage - Info message from the manager: Startup statistics: 0 components queued to be activated.
+2021-02-09T14:56:52.476 pyContainerForSchedulingBlock_1 taggedmessage - Info message from the manager: Startup statistics: 0 of 0 components activated.
+ContainerStatusMsg: Automatic component loading ends
+ContainerStatusMsg: Ready
+2021-02-09T14:56:52.558 pyContainerForSchedulingBlock_1 getCDBInfo - No container information found in the CDB
+2021-02-09T14:56:52.611 pyContainerForSchedulingBlock_1 __init__ - Container pyContainerForSchedulingBlock_1 waiting for requests
+2021-02-09T14:56:52.612 pyContainerForSchedulingBlock_1 __init__ - Container pyContainerForSchedulingBlock_1 used libraries from /home/vagrant/INTROOT/lib/python/site-packages:/alma/ACS-2020AUG/ACSSW/lib/python/site-packages:
+ContainerStatusMsg: Startup ends
+2021-02-09T14:57:10.968 pyContainerForSchedulingBlock_1 activate_component_async - Starting async activation of SAG_PROCESS_RECO_MANAGERID_10(type IDL:sag/SAG_MODULE/SAGReco:1.0)
+2021-02-09T14:57:10.969 pyContainerForSchedulingBlock_1 run - Activating SAG_PROCESS_RECO_MANAGERID_10 (type IDL:sag/SAG_MODULE/SAGReco:1.0)
+2021-02-09T14:57:10.970 pyContainerForSchedulingBlock_1 aboutToActivate - The container is asking the clearance to activate SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:10.971 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_RECO_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:10.972 pyContainerForSchedulingBlock_1 aboutToActivate - The container has been cleared to activate SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:10.991 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=18 CompName=SAG_PROCESS_RECO_MANAGERID_10 ]
+2021-02-09T14:57:10.996 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=4 CompName=SAG_PROCESS_RECO_MANAGERID_10 ]
+2021-02-09T14:57:10.997 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=SAG_PROCESS_RECO_MANAGERID_10 ]
+2021-02-09T14:57:10.999 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=1 CompName=SAG_PROCESS_RECO_MANAGERID_10 ]
+2021-02-09T14:57:11.000 pyContainerForSchedulingBlock_1 activate_component - Activated component: SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:11.027 pyContainerForSchedulingBlock_1 activate_component - Component 'SAG_PROCESS_RECO_MANAGERID_10' doesn't have any KeepAliveTime configuration associated with it.
+2021-02-09T14:57:11.028 pyContainerForSchedulingBlock_1 activated - The container terminated the activation of SAG_PROCESS_RECO_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:11.029 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:11.030 pyContainerForSchedulingBlock_1 run - Calling maci::CBComponentInfo::done with descOut.id_tag = 1 for 'SAG_PROCESS_RECO_MANAGERID_10'
+2021-02-09T14:57:11.039 pyContainerForSchedulingBlock_1 activate_component_async - Starting async activation of SAG_PROCESS_DQ_MANAGERID_10(type IDL:sag/SAG_MODULE/SAGDataQuality:1.0)
+2021-02-09T14:57:11.041 pyContainerForSchedulingBlock_1 run - Call to maci::CBComponentInfo::done with descOut.id_tag = 1 for 'SAG_PROCESS_RECO_MANAGERID_10' completed
+2021-02-09T14:57:11.043 pyContainerForSchedulingBlock_1 run - Activating SAG_PROCESS_DQ_MANAGERID_10 (type IDL:sag/SAG_MODULE/SAGDataQuality:1.0)
+2021-02-09T14:57:11.044 pyContainerForSchedulingBlock_1 aboutToActivate - The container is asking the clearance to activate SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:11.045 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_DQ_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:11.046 pyContainerForSchedulingBlock_1 aboutToActivate - The container has been cleared to activate SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:11.054 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=0 CompName=SAG_PROCESS_DQ_MANAGERID_10 ]
+2021-02-09T14:57:11.060 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=5 CompName=SAG_PROCESS_DQ_MANAGERID_10 ]
+2021-02-09T14:57:11.060 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=SAG_PROCESS_DQ_MANAGERID_10 ]
+2021-02-09T14:57:11.061 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=0 CompName=SAG_PROCESS_DQ_MANAGERID_10 ]
+2021-02-09T14:57:11.064 pyContainerForSchedulingBlock_1 activate_component - Activated component: SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:11.075 pyContainerForSchedulingBlock_1 activate_component - Component 'SAG_PROCESS_DQ_MANAGERID_10' doesn't have any KeepAliveTime configuration associated with it.
+2021-02-09T14:57:11.076 pyContainerForSchedulingBlock_1 activated - The container terminated the activation of SAG_PROCESS_DQ_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:11.077 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:11.078 pyContainerForSchedulingBlock_1 run - Calling maci::CBComponentInfo::done with descOut.id_tag = 2 for 'SAG_PROCESS_DQ_MANAGERID_10'
+2021-02-09T14:57:11.084 pyContainerForSchedulingBlock_1 activate_component_async - Starting async activation of SAG_PROCESS_SCI_MANAGERID_10(type IDL:sag/SAG_MODULE/SAGSci:1.0)
+2021-02-09T14:57:11.086 pyContainerForSchedulingBlock_1 run - Call to maci::CBComponentInfo::done with descOut.id_tag = 2 for 'SAG_PROCESS_DQ_MANAGERID_10' completed
+2021-02-09T14:57:11.091 pyContainerForSchedulingBlock_1 run - Activating SAG_PROCESS_SCI_MANAGERID_10 (type IDL:sag/SAG_MODULE/SAGSci:1.0)
+2021-02-09T14:57:11.092 pyContainerForSchedulingBlock_1 aboutToActivate - The container is asking the clearance to activate SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:11.093 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_SCI_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:11.094 pyContainerForSchedulingBlock_1 aboutToActivate - The container has been cleared to activate SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:11.095 loggingts -- Successfully loaded component code. [ logName=LOG_CompAct_Loading_OK TimeMillis=0 CompName=SAG_PROCESS_SCI_MANAGERID_10 ]
+2021-02-09T14:57:11.098 loggingts -- Successfully instantiated component. [ logName=LOG_CompAct_Instance_OK TimeMillis=3 CompName=SAG_PROCESS_SCI_MANAGERID_10 ]
+2021-02-09T14:57:11.099 loggingts -- Successfully activated component with Corba. [ logName=LOG_CompAct_Corba_OK TimeMillis=0 CompName=SAG_PROCESS_SCI_MANAGERID_10 ]
+2021-02-09T14:57:11.099 loggingts -- Successfully initialized component. [ logName=LOG_CompAct_Init_OK TimeMillis=0 CompName=SAG_PROCESS_SCI_MANAGERID_10 ]
+2021-02-09T14:57:11.104 pyContainerForSchedulingBlock_1 activate_component - Activated component: SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:11.127 pyContainerForSchedulingBlock_1 activate_component - Component 'SAG_PROCESS_SCI_MANAGERID_10' doesn't have any KeepAliveTime configuration associated with it.
+2021-02-09T14:57:11.128 pyContainerForSchedulingBlock_1 activated - The container terminated the activation of SAG_PROCESS_SCI_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:11.129 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:11.129 pyContainerForSchedulingBlock_1 run - Calling maci::CBComponentInfo::done with descOut.id_tag = 3 for 'SAG_PROCESS_SCI_MANAGERID_10'
+2021-02-09T14:57:11.138 pyContainerForSchedulingBlock_1 run - Call to maci::CBComponentInfo::done with descOut.id_tag = 3 for 'SAG_PROCESS_SCI_MANAGERID_10' completed
+2021-02-09T14:57:11.177 None start - [SAGRecoImpl - start]
+2021-02-09T14:57:11.183 None start_sim_pipe - [SAGRecoImpl - start_sim_pipe] cmd=bash /home/vagrant/sag-supervisor/scripts/sim_pipe_start.sh 1 /home/vagrant/sag-supervisor/output-dir reco Process pid: 3044
+2021-02-09T14:57:11.184 None start - SAGDataQualityImpl start() TBI
+Starting..
+2021-02-09T14:57:11.184 None start - [SAGSciImpl - start] TBD
+2021-02-09T14:57:21.661 None startDataProcessing - [SAGRecoImpl - startDataProcessing]
+2021-02-09T14:57:21.665 None start_sim_data_processing_pipe - [SAGRecoImpl - start_sim_data_processing_pipe] cmd=bash /home/vagrant/sag-supervisor/scripts/sim_pipe_data_processing.sh 1 /home/vagrant/sag-supervisor/output-dir reco /home/vagrant/sag-supervisor/input-data-dir/datadir_1 Process pid: 3118
+2021-02-09T14:57:21.666 None startDataProcessing - [SAGDataQualityImpl - startDataProcessing] TBI
+2021-02-09T14:57:21.666 None startDataProcessing - [SAGSciImpl - startDataProcessing] TBD
+Starting..
+2021-02-09T14:57:31.862 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container is asking the clearance to deactivate SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:31.862 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_RECO_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:31.863 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container has been cleared to activate SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:31.863 pyContainerForSchedulingBlock_1 deactivate_component - Deactivating component: SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:31.865 pyContainerForSchedulingBlock_1 deactivated - The container terminated the deactivation of SAG_PROCESS_RECO_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:31.865 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_RECO_MANAGERID_10
+2021-02-09T14:57:31.869 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container is asking the clearance to deactivate SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:31.870 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_DQ_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:31.870 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container has been cleared to activate SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:31.870 pyContainerForSchedulingBlock_1 deactivate_component - Deactivating component: SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:31.882 pyContainerForSchedulingBlock_1 deactivated - The container terminated the deactivation of SAG_PROCESS_DQ_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:31.882 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_DQ_MANAGERID_10
+2021-02-09T14:57:31.884 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container is asking the clearance to deactivate SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:31.885 pyContainerForSchedulingBlock_1 _aboutToProcess - The container is not dealing with SAG_PROCESS_SCI_MANAGERID_10: the operation can go ahead
+2021-02-09T14:57:31.885 pyContainerForSchedulingBlock_1 aboutToDeactivate - The container has been cleared to activate SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:31.886 pyContainerForSchedulingBlock_1 deactivate_component - Deactivating component: SAG_PROCESS_SCI_MANAGERID_10
+2021-02-09T14:57:31.887 pyContainerForSchedulingBlock_1 deactivated - The container terminated the deactivation of SAG_PROCESS_SCI_MANAGERID_10: awakening waiting threads
+2021-02-09T14:57:31.887 pyContainerForSchedulingBlock_1 _processTerminated - The container terminated dealing with SAG_PROCESS_SCI_MANAGERID_10
+Goodbye
+2021-02-09T14:57:32.812 INFO [acsStartContainer] Container: 'pyContainerForSchedulingBlock_1' exited with code: 0.
